@@ -11,7 +11,8 @@ y_train:<br />
 o	Unique_ID: Represent the Unique Identifier<br />
 o	Dependent_Variable: Represent the outcome or dependent variable<br />
 
-The testing dataset consist of one csv: X_test in the Testing folder.
+The testing dataset consist of two csv: X_test and final_predictions in the Testing folder.<br />
+ROC_AUC uses probability estimates of the positive class for its calculation. Therefore, the final outcome is a probability estimate for the positive class (e.g. 0.82), not the class label (e.g. 0 or 1), which is stored in final_predictions.csv which is obtained on applying the trained model on X_test.csv.
 
 Data Preprocessing:
 1. Dropping Unique_ID Column: The Unique_ID column is dropped from X_df and X_test_df using the drop function.
