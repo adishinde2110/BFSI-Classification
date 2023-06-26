@@ -2,14 +2,14 @@
 
 Supervised ML algorithms to perform a binary classification task. Here's a breakdown of the code:
 
-The training dataset consists of two csv: X_train and y_train in the Training folder. 
-X_train:
-	Unique_ID: Represent the Unique Identifier
-	C1 to C8: Represents Categorical columns
-	N1 to N35: Represent Numerical columns
-y_train:
-	Unique_ID: Represent the Unique Identifier
-	Dependent_Variable: Represent the outcome or dependent variable
+The training dataset consists of two csv: X_train and y_train in the Training folder.<br />
+X_train:<br />
+o Unique_ID: Represent the Unique Identifier<br />
+o	C1 to C8: Represents Categorical columns<br />
+o	N1 to N35: Represent Numerical columns<br />
+y_train:<br />
+o	Unique_ID: Represent the Unique Identifier<br />
+o	Dependent_Variable: Represent the outcome or dependent variable<br />
 
 The testing dataset consist of one csv: X_test in the Testing folder.
 
