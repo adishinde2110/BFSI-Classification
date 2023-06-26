@@ -29,6 +29,8 @@ The algorithms used are:
 2. K-Nearest Neighbors (KNN)
 3. Random Forest
 
-Saving Predictions:
+Saving Predictions:<br />
 o	ROC_AUC uses probability estimates of the positive class for its calculation. Therefore, the final outcome is a probability estimate for the positive class (e.g. 0.82), not the class label (e.g. 0 or 1). 
 o	The probability estimates for the positive class are saved along with the corresponding Unique_ID in a DataFrame named y_test_df. The final results can be saved to a CSV file for further analysis or evaluation.
+
+Current Best Model: Random Forest Classifier with One Hot Encoding, present in the DS_OneHotEncoder_MeanImputation.ipynb script.
